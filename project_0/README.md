@@ -73,6 +73,7 @@ in your prompt.
 With the `pip-compile` command, the list of required packages
 in the `pyproject.toml` can be turned into a complete list
 of packages to install.
+Update the project.toml to project 1.1 requirement condition.
 
 ```bash
 pip-compile --all-extras -o requirements-dev.txt
